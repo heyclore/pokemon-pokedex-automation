@@ -1,6 +1,6 @@
 import { test, expect } from "../fixtures/fixture";
 
-test("navigations menu components", async ({
+test("pokedex pikachu flow", async ({
   page,
   homePage,
   pokedexPage,

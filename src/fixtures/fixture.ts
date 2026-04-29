@@ -4,7 +4,7 @@ import { PokedexPage } from "../pages/pokedex/pokedexPage";
 
 type PageFixture = {
   homePage: HomePage;
-  docsPage: DocsPage;
+  docsPage: PokedexPage;
 };
 
 // Define fixtures for loginPage and dashboardPage

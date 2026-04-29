@@ -57,6 +57,30 @@ This project demonstrates the ability to:
 *   Utilize Playwright's features for managing test configurations and execution.
 
 ## Project Tree
+```
+.
+├── LICENSE
+├── README.md
+├── package-lock.json
+├── package.json
+├── playwright-report
+│   └── index.html
+├── playwright.config.ts
+├── src
+│   ├── fixtures
+│   │   └── fixture.ts
+│   ├── pages
+│   │   ├── components
+│   │   │   ├── navigationComponents.ts
+│   │   │   └── topBar.ts
+│   │   ├── homepage
+│   │   │   └── homePage.ts
+│   │   └── pokedex
+│   │       └── pokedexPage.ts
+│   └── test
+│       └── pokedex-pikachu-flow.spec.ts
+└── test-results
+```
 ---
 
 Feel free to reach out if you have any questions or would like to discuss this project further.

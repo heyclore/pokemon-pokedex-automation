@@ -1,0 +1,26 @@
+{
+  "name": "pokemon-pokedex-automation",
+  "version": "1.0.0",
+  "description": "Thanks for the opportunity, thank you.",
+  "homepage": "https://github.com/heyclore/pokemon-pokedex-automation#readme",
+  "bugs": {
+    "url": "https://github.com/heyclore/pokemon-pokedex-automation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyclore/pokemon-pokedex-automation.git"
+  },
+  "license": "MIT",
+  "author": "heyclore",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headless": "npx playwright test --headless",
+    "test:playwright": "npx playwright codegen"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}

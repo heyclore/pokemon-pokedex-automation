@@ -64,3 +64,11 @@ Backup_*
 # Python bytecode and cache files
 __pycache__/
 *.py[cod]
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

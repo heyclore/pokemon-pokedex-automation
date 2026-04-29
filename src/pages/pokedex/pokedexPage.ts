@@ -25,4 +25,8 @@ export class PokedexPage extends TopBar {
   get loadMorePokemonButton() {
     return this.page.locator('#loadMore > span');
   }
+
+  get pokemonTitle() {
+    return this.page.locator('div.pokedex-pokemon-pagination-title');
+  }
 }

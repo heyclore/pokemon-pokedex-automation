@@ -7,7 +7,7 @@ export class HomePage extends TopBar {
   }
 
   get goto() {
-    //return this.page.goto("https://www.pokemon.com/us");
-    return this.page.goto("http://localhost:8000/");
+    return this.page.goto("https://www.pokemon.com/us");
+    //return this.page.goto("http://localhost:8000/");
   }
 }
